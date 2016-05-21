@@ -1,9 +1,9 @@
 <div class='navigation'>
-<ul>
-  <li><a href='#/links' class='index'>All Links</a></li>
-  <li><a href='#/shorten' class='create'>Shorten</a></li>
-</ul>
-  <a href='/logout' class='logout'>Logout</a>
+  <ul>
+    <li><a href='#/links' class='index'>All Links</a></li>
+    <li><a href='#/shorten' class='create'>Shorten</a></li>
+    <li><a href='#/logout' class='logout'>Logout</a></li>
+  </ul>
 </div>
 <div id='container' ng-controller='ShortenController'>
 <!-- Your code here -->
@@ -12,7 +12,9 @@
       <input type='submit' value='Shorten' ng-click='addLink({url: newLink})'>
   </form>
   <!--<img class='spinner' src='/spiffygif_46x46.gif'>-->
-  <div class='message'></div>
+  <div class='message'>
+    <h3>Not Valid URL Test</h3>
+  </div>
   
 
 </div>
